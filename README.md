@@ -6,13 +6,13 @@ This project involves building an Angular application that integrates ECharts to
 ## Component Creation
 
 Created two components within components folder 
-1. title component
+1. title component<br>
    To display title and brief description of the application
 ```bash
 ng g c title
 ```
 
-2. chart component
+2. chart component<br>
    To house the echarts visualization
 ```bash
 ng g c chart
