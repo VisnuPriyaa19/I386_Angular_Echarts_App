@@ -45,7 +45,7 @@ ng generate service services/chart-data
 2. Chart Component<br>
   - Renders the ECharts visualization inside a container element.
   - Initializes the chart using Angular’s AfterViewInit lifecycle hook.
-  - Accepts data from a shared service and configures the chart dynamically.
+  - Accepts data from a shared service and configures the chart.
   - Provides a dropdown menu allowing users to switch between different chart types:
       - Bar Chart
       - Doughnut Chart
@@ -62,7 +62,7 @@ angular-echarts-app/
 │ │ │ ├── chart/
 │ │ │ ├── title/
 │ │ ├── services/
-│ │ │ └── data.service.ts
+│ │ │ └── chart-data.service.ts
 │ │ ├── models/
 │ │ │ └── chart-data.model.ts
 ```
@@ -83,4 +83,4 @@ Handled it by updating the option object and calling setOption() on the chart in
 
 ## Author
 
-**Visnu Priyaa B**
+[**Visnu Priyaa B**](https://github.com/VisnuPriyaa19)
