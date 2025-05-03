@@ -1,7 +1,19 @@
-# AngularEchartsApp
+# Exploring Angular Fundamentals and Data Visualization using Echarts
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.7.
+This project involves building an Angular application that integrates ECharts to visualize data. 
 
+## Component Creation
+
+Created two components within Components folder using the command
+
+```bash
+ng g c title
+```
+
+```bash
+ng g c chart
+```
 ## Development server
 
 To start a local development server, run:
