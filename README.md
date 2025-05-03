@@ -54,7 +54,7 @@ ng generate service services/chart-data
   - Includes essential chart styling, labels, and axis settings for readability.
 
 ## Folder structure
-
+```bash
 angular-echarts-app/
 ├── src/
 │ ├── app/
@@ -65,3 +65,4 @@ angular-echarts-app/
 │ │ │ └── data.service.ts
 │ │ ├── models/
 │ │ │ └── chart-data.model.ts
+```
