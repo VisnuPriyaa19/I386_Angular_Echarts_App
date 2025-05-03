@@ -38,17 +38,18 @@ ng generate service services/chart-data
 ## Components and their functionality
 
 1. Title Component<br>
-      - Displays the application title and a brief description.
-      - Utilizes Angular data binding ({{ }}) to dynamically render content.
-      - Acts as a simple header component for user context.
+  - Displays the application title and a brief description.
+  - Utilizes Angular data binding ({{ }}) to dynamically render content.
+  - Acts as a simple header component for user context.
+
 2. Chart Component<br>
-      - Renders the ECharts visualization inside a container element.
-      - Initializes the chart using Angular’s AfterViewInit lifecycle hook.
-      - Accepts data from a shared service and configures the chart dynamically.
-      - Provides a dropdown menu allowing users to switch between different chart types:
-            - Bar Chart
-            - Doughnut Chart
-            - Step Line Chart
-      - Updates the chart configuration and view instantly based on the selected type.
-      - Includes essential chart styling, labels, and axis settings for readability.
+  - Renders the ECharts visualization inside a container element.
+  - Initializes the chart using Angular’s AfterViewInit lifecycle hook.
+  - Accepts data from a shared service and configures the chart dynamically.
+  - Provides a dropdown menu allowing users to switch between different chart types:
+      - Bar Chart
+      - Doughnut Chart
+      - Step Line Chart
+  - Updates the chart configuration and view instantly based on the selected type.
+  - Includes essential chart styling, labels, and axis settings for readability.
 
