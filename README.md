@@ -35,61 +35,20 @@ ng generate service services/chart-data
   - Used Angular lifecycle hook AfterViewInit to initialize the chart.
   - Configured the chart with sample data, chart type, and styling options.
 
+## Components and their functionality
 
+1. Title Component<br>
+      - Displays the application title and a brief description.
+      - Utilizes Angular data binding ({{ }}) to dynamically render content.
+      - Acts as a simple header component for user context.
+2. Chart Component<br>
+      - Renders the ECharts visualization inside a container element.
+      - Initializes the chart using Angular’s AfterViewInit lifecycle hook.
+      - Accepts data from a shared service and configures the chart dynamically.
+      - Provides a dropdown menu allowing users to switch between different chart types:
+            - Bar Chart
+            - Doughnut Chart
+            - Step Line Chart
+      - Updates the chart configuration and view instantly based on the selected type.
+      - Includes essential chart styling, labels, and axis settings for readability.
 
-
-## Development server
-
-To start a local development server, run:
-
-```bash
-ng serve
-```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
