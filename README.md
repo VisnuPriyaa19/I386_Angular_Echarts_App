@@ -66,3 +66,21 @@ angular-echarts-app/
 │ │ ├── models/
 │ │ │ └── chart-data.model.ts
 ```
+
+## Challenges Faced and Solutions
+
+1. ECharts Initialization Timing
+Faced difficulty rendering the chart due to ECharts needing the DOM to be fully loaded.<br>
+Resolved by using Angular’s AfterViewInit lifecycle hook to ensure the chart initializes after the view is ready.
+
+2. Overlapping of Charts when Selected
+Charts would overlap when switching between different types.<br>
+Resolved by applying the dispose() method to clear the previous chart and avoid overlapping.
+
+3. Dynamic Chart Switching
+Encountered issues while updating chart types dynamically.
+Handled it by updating the option object and calling setOption() on the chart instance.
+
+## Author
+
+**Visnu Priyaa B**
