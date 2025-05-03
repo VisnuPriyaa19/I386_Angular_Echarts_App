@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { TitleComponent } from './title/title.component';
-import { ChartComponent } from './chart/chart.component';
+import { ChartComponent } from './components/chart/chart.component';
 
 @Component({
   selector: 'app-root',

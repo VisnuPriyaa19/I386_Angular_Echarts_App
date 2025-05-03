@@ -2,7 +2,7 @@ import { Component, inject, AfterViewInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NgxEchartsModule } from 'ngx-echarts';
 import { EChartsOption } from 'echarts';
-import { ChartDataService } from './chart-data.service';
+import { ChartDataService } from '../../service/chart-data.service';
 import * as echarts from 'echarts';
 
 @Component({
