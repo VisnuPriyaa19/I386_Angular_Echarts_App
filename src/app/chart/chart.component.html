@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="dropdowns">
+        <select (change)="onChartTypeChange($event)">
+            <option value="doughnut">Doughnut Chart</option>
+            <option value="step-line">Step Line Chart</option>
+            <option value="bar">Bar Chart</option>
+        </select>
+    </div>
+
+    <p >
+        {{ChartDescription}}
+    </p>
+      
+    <div class="chart-container">
+        <div class="chart-card">
+            <!-- chart is rendered here -->
+            <div id="salesChart" style="width: 100%; height: 400px;"></div>
+        </div>
+    </div>
+      
+</div>
+  
