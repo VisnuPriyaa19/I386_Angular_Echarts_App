@@ -53,3 +53,15 @@ ng generate service services/chart-data
   - Updates the chart configuration and view instantly based on the selected type.
   - Includes essential chart styling, labels, and axis settings for readability.
 
+## Folder structure
+
+angular-echarts-app/
+├── src/
+│ ├── app/
+│ │ ├── components/
+│ │ │ ├── chart/
+│ │ │ ├── title/
+│ │ ├── services/
+│ │ │ └── data.service.ts
+│ │ ├── models/
+│ │ │ └── chart-data.model.ts
